@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<business ID="GETPDF">
+	<REQUEST_COMMON_GETPDF class="REQUEST_COMMON_GETPDF">
+		<FP_DM>037001600111</FP_DM>
+		<FP_HM>07517139</FP_HM>
+		<JYM>14521016785992505771</JYM>
+	</REQUEST_COMMON_GETPDF>
+</business>
