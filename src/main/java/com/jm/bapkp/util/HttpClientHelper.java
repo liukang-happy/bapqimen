@@ -30,8 +30,8 @@ public class HttpClientHelper {
 		String responseInfo = null;
 		try {
 			HttpPost httpPost = new HttpPost(url);
-			httpPost.addHeader("Content-Type", "application/json;charset=UTF-8");
-			ContentType contentType = ContentType.create("application/json", CharsetUtils.get("UTF-8"));
+			httpPost.addHeader("Content-Type", "application/octet-stream;charset=UTF-8");
+			ContentType contentType = ContentType.create("application/octet-stream", CharsetUtils.get("UTF-8"));
 			httpPost.setEntity(new StringEntity(json, contentType));
 			CloseableHttpResponse response = httpclient.execute(httpPost);
 			HttpEntity entity = response.getEntity();

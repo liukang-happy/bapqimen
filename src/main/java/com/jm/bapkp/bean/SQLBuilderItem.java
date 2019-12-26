@@ -6,12 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 import com.alibaba.fastjson.annotation.JSONField;
+import com.alibaba.fastjson.annotation.JSONType;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Setter
 @Getter
+@JSONType(orders = { "SQLBuilderID", "TableName", "Caption", "Enabled", "Save", "Execute", "Select" })
 public class SQLBuilderItem {
 
 	@JSONField(name = "SQLBuilderID")
